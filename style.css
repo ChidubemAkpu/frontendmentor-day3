@@ -24,7 +24,7 @@ main{
     background:hsl(333, 40%, 82%)
     ;
     text-align:center;
-    padding:5%;
+    padding:4%;
     border-radius:5px;
     display:flex;
     flex-direction: column;
