@@ -27,6 +27,7 @@ main{
     padding:2%;
     border-radius:5px;
 
+
 }
 .second-section , .first-section p{
     font-size: 15px;
@@ -76,7 +77,10 @@ span{
     }
     .each-rating{
         margin-bottom:4%;
-        width:70%;
+        width:60%;
+        display:flex;
+        gap:5%;
+        justify-content: space-around;
     }
     #second{
         position: relative;
