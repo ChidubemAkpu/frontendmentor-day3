@@ -26,6 +26,9 @@ main{
     text-align:center;
     padding:2%;
     border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    gap: 5%;
 
 
 }
@@ -77,9 +80,10 @@ span{
     }
     .each-rating{
         margin-bottom:4%;
-        width:60%;
+        width:70%;
         display:flex;
-        gap:5%;
+        flex-direction: row;
+        
         justify-content: space-around;
     }
     #second{
