@@ -8,6 +8,8 @@ body{
 }
 main{
     padding:5%;
+    display:grid;
+    place-items: center;
 }
 
 .about-section{
