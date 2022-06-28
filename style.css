@@ -46,6 +46,7 @@ main{
     display:flex;
     gap:7%;
     color:hsl(300, 24%, 96%);
+    align-items:center;
 }
 h1 , .rate-writeup{
     color:hsl(300, 43%, 22%);
@@ -61,6 +62,8 @@ span{
 
 }
 .testifier{
+    width:40px;
+    height:40px;
     border-radius:50%;
 }
 .second-section p{
@@ -72,7 +75,6 @@ span{
     .first-section{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 4%;
         align-items: center;
     }
     .rating-section{
@@ -80,10 +82,13 @@ span{
     }
     .each-rating{
         margin-bottom:4%;
-        width:70%;
+        width:80%;
         display:flex;
         flex-direction: row;
-        gap: 15px;
+        padding:3% 1%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
     }
     #second{
         position: relative;
@@ -101,6 +106,7 @@ span{
         width:30%;
         display:inline-block;
         margin-left:2%;
+        padding:2%;
     }
     #second-box{
         position:relative;
@@ -121,5 +127,11 @@ span{
     }
     .about-section{
         text-align:left;
+    }
+    main{
+        padding:2%;
+    }
+    .rate-icon img{
+        width:12px;
     }
 }
