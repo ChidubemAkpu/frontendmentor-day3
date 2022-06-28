@@ -112,4 +112,7 @@ span{
     main{
         padding:5%;
     }
+    .about-section{
+        text-align:left;
+    }
 }
