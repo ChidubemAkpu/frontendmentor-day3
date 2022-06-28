@@ -65,7 +65,7 @@ span{
 }
 .second-section p{
     text-align: left;
-    color:hsl(303, 10%, 53%);
+    color:hsl(300, 24%, 96%);
 }
 
 @media screen and (min-width:800px){
