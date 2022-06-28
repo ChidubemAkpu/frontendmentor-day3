@@ -4,12 +4,12 @@
 body{
     background:hsl(0,0%,100%);
     font-family: 'League Spartan', sans-serif;
+    display:grid;
+    place-items:center;
     
 }
 main{
     padding:5%;
-    display:grid;
-    place-items: center;
 }
 
 .about-section{
