@@ -9,9 +9,11 @@ body{
 main{
     padding:5%;
 }
+
 .about-section{
     text-align:center;
     color:hsl(303, 10%, 53%);
+    margin-bottom: 20%;
 }
 .rating-section{
     display:grid;
