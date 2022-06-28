@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:hsl(0,0%,100%);
+    font-family: 'League Spartan', sans-serif;
+    
+}
+main{
+    padding:2%;
+}
+.about-section{
+    text-align:center;
+    color:hsl(303, 10%, 53%);
+}
+.rating-section{
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap:10px;
+    padding:3%;
+}
+.each-rating{
+    background:hsl(333, 40%, 82%)
+    ;
+    text-align:center;
+    padding:2%;
+    border-radius:5px;
+
+}
+.secon-section , .first-section p{
+    font-size: 15px;
+}
+.second-section{
+    margin-top:6%;
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap:15px;
+    
+}
+.profile{
+    display:flex;
+    gap:4%;
+    color:hsl(300, 24%, 96%);
+}
+h1 , .rate-writeup{
+    color:hsl(300, 43%, 22%);
+}
+.testimonials{
+    padding:4%;
+    background:hsl(300, 43%, 22%);
+    border-radius:10px;
+}
+span{
+    display:block;
+    color:hsl(333, 80%, 67%);
+
+}
+.testifier{
+    border-radius:50%;
+}
+.second-section p{
+    text-align: left;
+    color:hsl(303, 10%, 53%);
+}
+
+@media screen and (min-width:800px){
+    .first-section{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4%;
+        align-items: center;
+    }
+    .rating-section{
+        display:block;
+    }
+    .each-rating{
+        margin-bottom:4%;
+        width:70%;
+    }
+    #second{
+        position: relative;
+        left:10%;
+    }
+    #third{
+        position:relative;
+        left:20%;
+    }
+    .second-section{
+        display:block;
+        padding:auto;
+    }
+    .testimonials{
+        width:30%;
+        display:inline-block;
+        margin-left:2%;
+    }
+    #second-box{
+        position:relative;
+        top:35px;
+    }
+    #third-box{
+        position:relative;
+        top:70px;
+    }
+     .first-section p{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    main{
+        padding:5%;
+    }
+}
