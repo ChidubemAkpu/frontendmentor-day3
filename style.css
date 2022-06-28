@@ -44,7 +44,7 @@ main{
 }
 .profile{
     display:flex;
-    gap:4%;
+    gap:7%;
     color:hsl(300, 24%, 96%);
 }
 h1 , .rate-writeup{
